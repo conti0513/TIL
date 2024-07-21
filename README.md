@@ -40,14 +40,14 @@ Here is an example of what a typical entry looks like:
 ## Setup Instructions
 Note: Steps 1-4 are only for the first time.
 
-1. **Create a GitHub Account**
+1. Create a GitHub Account
    - Go to the GitHub official site (https://github.com) and create an account.
 
-2. **Create a TIL Repository**
+2. Create a TIL Repository
    - Sign in to GitHub, click on the "+" icon in the upper right corner, and select "New repository".
    - Name the repository "TIL" and enter the necessary information, then click "Create repository".
 
-3. **Set Up Local Repository**
+3. Set Up Local Repository
    - If Git is not installed, download and install it from the [Git official site](https://git-scm.com/).
    - Open the terminal and run the following commands to clone the repository:
      ```sh
@@ -55,7 +55,7 @@ Note: Steps 1-4 are only for the first time.
      cd TIL
      ```
 
-4. **Add Daily Outputs**
+4. Add Daily Outputs
    - Create new directories and files for the date. For example, to create an entry for July 5, 2024:
      ```sh
      mkdir -p entries/2024/07
@@ -63,14 +63,14 @@ Note: Steps 1-4 are only for the first time.
      ```
    - Open the file in your text editor and write what you learned that day.
 
-5. **Commit Changes**
+5. Commit Changes
    - In the terminal, run the following commands to commit the changes:
      ```sh
      git add entries/2024/07/2024-07-05.md
      git commit -m "Add TIL for 2024-07-05"
      ```
 
-6. **Push to Remote Repository**
+6. Push to Remote Repository
    - Run the following command to push the changes to the remote repository:
      ```sh
      git push origin main
@@ -78,18 +78,18 @@ Note: Steps 1-4 are only for the first time.
 
 ## Make Daily Outputs a Habit
 
-- **Daily Reminders**
+- Daily Reminders
   - Use a calendar app or reminder app to set reminders for writing your daily TIL entries.
 
-- **Consistent Commits**
+- Consistent Commits
   - Write at least one TIL entry each day, then commit and push using the steps above.
 
 ## Additional Tips
 
-- **File Structure**
+- File Structure
   - Customize the file structure to suit your needs. For example, you can create directories for different categories.
 
-- **Using Markdown**
+- Using Markdown
   - Writing in Markdown makes the entries easy to read on GitHub. Refer to the [Markdown Guide](https://www.markdownguide.org/) for basic syntax.
 ```
 ---
